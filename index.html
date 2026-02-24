@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Aica!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import custom font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- Make site responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="frontpage">
+
+    <h1>Happy 18th Birthday 💕</h1>
+
+    <!-- Front page images -->
+    <div id="frontpage-images">
+        <img src="cutie-wallpaper.jpg" alt="Front Page Image 1">
+        <img src="photobooth.jpg" alt="Front Page Image 2">
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-group">
+        <button onclick="showMessage()">Click Me 💌</button>
+        <button onclick="playMusic()">Play Our Song 🎵</button>
+        <button onclick="showVideo()">Watch Our Video 🎬</button>
+    </div>
+
+    <!-- Message -->
+    <div id="message" class="hidden">
+        <p>My love,</p>
+        <p>Happy birthday to the person who somehow manages to make me smarter, kinder, and occasionally less of a disaster...</p>
+        <p>Through ups and downs, through the days when life feels heavy and the nights when laughter carries us...</p>
+        <p>Happy birthday, my brilliant, hilarious, and endlessly patient person. I love you more than words can capture.</p>
+        <p>With all my heart,<br>- R</p>
+    </div>
+
+    <!-- Music -->
+    <audio id="song" src="MySong (2).mp3" controls></audio>
+
+    <!-- Video -->
+    <div id="video-container" class="hidden">
+        <h2>Our Special Video 🎥</h2>
+        <video controls autoplay>
+            <source src="ourvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
